@@ -1,0 +1,32 @@
+{
+  "name": "flux-react-es6-webpack",
+  "version": "1.0.0",
+  "description": "Flux & React using ES6",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rifat Nabi",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.0-beta.2"
+  },
+  "devDependencies": {
+    "babel-core": "^4.3.0",
+    "babel-loader": "^4.0.0",
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torifat/flux-react-es6-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/torifat/flux-react-es6-webpack/issues"
+  },
+  "homepage": "https://github.com/torifat/flux-react-es6-webpack"
+}
